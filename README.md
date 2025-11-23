@@ -12,4 +12,12 @@ dynamique hébergée par Flask. L’application web utilise une API REST sécuri
 présente les résultats sous forme de graphiques.
 
 # Contenu
-Ce dépôt contient l'intégralité des codes sources du projet MétéoPerso
+Ce dépôt contient l'intégralité des codes sources du projet MétéoPerso :
+- meteoperso.c
+- create_table.sql
+- app.py
+- login.html
+- index.html
+- charts.js
+- styles.css
+  

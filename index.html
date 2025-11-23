@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="chart-box">
+				<canvas id="cpu_chart"></canvas>
+			</div>
+			<div class="chart-box">
+				<canvas id="ram_chart"></canvas>
+			</div>
+			<div class="chart-box">
+				<canvas id="disk_chart"></canvas>
+			</div>
+		</div>
+
+		<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+
+		<div>
+			Connecté en tant que <strong>{{ user }}</strong>
+		</div>
+		<div>
+			<a href="{{ url_for('logout') }}">Déconnexion</a>
+		</div>
+	</body>
+</html>

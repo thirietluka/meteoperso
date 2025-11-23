@@ -1,0 +1,12 @@
+/* Conteneur principal des graphiques */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Chaque graphique */
+.chart-box {
+    width: 900px;
+    height: 240px;
+}
